@@ -1,0 +1,53 @@
+#navbar {
+    background-color: #1e4d7f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 25px;
+}
+
+.links a {
+    border-left: 1px solid white;
+}
+
+.links a:first-child {
+    border: none;
+}
+
+.text-section {
+    background-color: #5d85ad;
+    margin: 0;
+    padding: 15px;
+}
+
+.parallax img {
+    width: 100%;
+    height: 25%; 
+}
+
+.parallax {
+    /* The image used */
+    /* background-image: url("images/Dangerous_journey.jpg"); */
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para1 {
+    background-image: url("images/Dangerous_journey.jpg");
+}
+
+.para2 {
+    background-image: url("images/IMG_0724.JPG");
+}
+
+footer {
+    padding: 25px;
+    background-color: #1e4d7f;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
